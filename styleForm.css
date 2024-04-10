@@ -1,0 +1,114 @@
+.pt-packages table td, th{
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
+
+body{
+    font-family: 'Aceme', sans-serif;
+    background-color: darkblue;
+    color: white;
+}
+
+h1{
+    font-family: 'Alegreya Sans SC', Arial;
+    font-size: 8em;
+    text-shadow: 5px 5px hsl(0, 0%, 0%);
+}
+
+h1, h3, p{
+    text-align:center;
+
+}
+
+/* ----- Nav ----- */
+
+nav li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: hsl(216, 100%, 50%);
+    text-shadow: 2px 2px black;
+    color: hsl(0, 0%, 100%);
+}
+
+nav{
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav li:hover{
+    cursor: pointer;
+    background-color: hsl(216, 74%, 67%);
+}
+nav li:active{
+    cursor: pointer;
+    background-color: hsl(216, 74%, 67%);
+    color: white;
+}
+
+
+
+/* ----- End of Nav -----*/
+
+
+textarea{
+    width: 500px;
+    
+}
+
+input{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h3{
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    
+    
+
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 10px;
+
+
+}
+/* ----- Fonts ----- */
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasanssc/v23/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DspC4iNhMKB8O-8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v31/6xKtdSZaM9iE8KbpRA_hK1QNYuDyPw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/acme/v25/RrQfboBx-C5_XxrBbk_m3Lg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* ----- End of Fonts ----- */
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+<body>
+    <header>
+        <h1>Our online form</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Online Form</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+        </ul>
+
+    </nav>
+
+    <p>Fill out the form below to get started with one of our personal trainers.</p>
+
+
+    <div class="client-data">
+
+        <table>
+            <tr>
+                <td><label for="first-name">First Name:</label></td>
+                <td><input type="string" id="first-name" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="last-name">Last Name:</label></td>
+                <td><input type="string" id="last-name" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="string" id="age" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="height">Height:</label></td>
+                <td><input type="number" id="height" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="weight">Weight:</label></td>
+                <td><input type="number" id="weight" ></td>
+            </tr>
+
+        </table>
+
+        <label id="goals">Tell us what your goals are </label><br>
+        <textarea placeholder=""></textarea><br>
+
+        <label id="goals">Tell us about your interests </label><br>
+        <textarea placeholder=""></textarea><br>
+
+        <label id="comments"></label><br>
+        <textarea placeholder="Enter your any additional comments here"></textarea>
+
+
+
+    </div>
+
+    <div class="pt-packages">
+        <h3>Personal Trainer Packages</h3>
+
+        <table>
+            <tr>
+                <th>Instructor</th>
+                <th>Price</th>
+                <th>Expertise/Focus</th>
+                <th>Favourite gym exercise/workout</th>
+                <th>Select</th>
+
+            </tr>
+
+            <tr>
+                <td>Jack Avery</td>
+                <td>5 sessions for £90 </td>
+                <td>Muscle Gain</td>
+                <td>Bench Press & Strength Training</td>
+                <td><input type="radio" id="jack-avery" ></td>
+            </tr>
+
+            <tr>
+                <td>Sarah Hide</td>
+                <td>£22 per session</td>
+                <td>Body Fat Loss</td>
+                <td>Circuits</td>
+                <td><input type="radio" id="sarah-hide" ></td>
+            </tr>
+
+            <tr>
+                <td>Louis Cross</td>
+                <td>£20 per session</td>
+                <td>Body Fat Loss and Body Tone</td>
+                <td>Balance & Strength Training</td>
+                <td><input type="radio" id="jack-avery" ></td>
+            </tr>
+
+            <tr>
+                <td>Amelia Johnson</td>
+                <td>3 sessions for £75</td>
+                <td>Body Tone & Muscle Gain</td>
+                <td>Cross Fit and Boxercise</td>
+                <td><input type="radio" id="ameilia-johnson" ></td>
+            </tr>
+
+        </table>
+
+        <button id="submit" onClick="submit()">Submit</button>
+        <button id="reset" onClick="reset()">Reset</button>
+
+
+    </div>
+    
+</body>
+</html>
