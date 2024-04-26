@@ -84,7 +84,7 @@
                 <td>5 sessions for £90 </td>
                 <td>Muscle Gain</td>
                 <td>Bench Press & Strength Training</td>
-                <td><input type="radio" id="jack-avery" ></td>
+                <td><input type="radio" class="radio-btns" id="jack-avery" ></td>
             </tr>
 
             <tr>
@@ -92,7 +92,7 @@
                 <td>£22 per session</td>
                 <td>Body Fat Loss</td>
                 <td>Circuits</td>
-                <td><input type="radio" id="sarah-hide" ></td>
+                <td><input type="radio" class="radio-btns" id="sarah-hide" ></td>
             </tr>
 
             <tr>
@@ -100,7 +100,7 @@
                 <td>£20 per session</td>
                 <td>Body Fat Loss and Body Tone</td>
                 <td>Balance & Strength Training</td>
-                <td><input type="radio" id="jack-avery" ></td>
+                <td><input type="radio" class="radio-btns" id="jack-avery" ></td>
             </tr>
 
             <tr>
@@ -108,16 +108,30 @@
                 <td>3 sessions for £75</td>
                 <td>Body Tone & Muscle Gain</td>
                 <td>Cross Fit and Boxercise</td>
-                <td><input type="radio" id="ameilia-johnson" ></td>
+                <td><input type="radio" class="radio-btns" id="ameilia-johnson" ></td>
             </tr>
 
-        </table>
+        </table><br>
 
-        <button id="submit" onClick="submit()">Submit</button>
-        <button id="reset" onClick="reset()">Reset</button>
+        <div class="submit-container">
+            <button class="buttons" id="submitbtn" onclick="displayPopup()">Submit</button>
+            <div class="popup" id ="popup">
+                <img src="images/tick.webp" alt="tick image">
+                <h2>Thank You!</h2>
+                <p>Your details have been successfully submitted.</p>
+                <button type="button" onclick="hidePopup()">OK</button>
+            </div>
+
+        </div>
+        
+        <div class="reset-container">
+            <button class="buttons" id="resetbtn" onclick="reset()">Reset</button>
+        </div>
 
 
     </div>
+
+    <script src="form.js"></script>
     
 </body>
 </html>

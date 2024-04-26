@@ -11,7 +11,7 @@ body{
 
 h1{
     font-family: 'Alegreya Sans SC', Arial;
-    font-size: 8em;
+    font-size: 5em;
     text-shadow: 5px 5px hsl(0, 0%, 0%);
 }
 
@@ -67,6 +67,7 @@ h3{
     font-family: 'Acme', sans-serif;
     font-size: 2rem;
     text-align: center;
+    text-decoration:underline;
     
     
 
@@ -82,6 +83,101 @@ td{
 
 
 }
+
+
+
+#submitbtn{
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.806);
+    color: black;
+      
+    box-shadow: 2px 2px rgba(89, 89, 89, 0.632); 
+
+}
+
+#resetbtn{
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.806);
+    color: black;
+    box-shadow: 2px 2px rgba(89, 89, 89, 0.632);
+
+}
+
+/* Popup styling start */
+
+.popup img{
+    width: 150px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(255, 255, 255, 0.3);
+}
+
+.popup{
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: black;
+    visibility: hidden;
+    transition: transform 0.5s, top 0.5s
+
+}
+
+.display-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2{
+   font-size: 38px;
+   font-weight: 500;
+   margin: 30px 0 10px; 
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(33, 165, 33);
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 7px 5px rgb(255, 255, 255, 0.3);
+}
+
+/* Popup styling end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----- Fonts ----- */
 @font-face {
     font-family: 'Alegreya Sans SC';
