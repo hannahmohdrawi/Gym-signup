@@ -25,7 +25,7 @@
 
     <div class="client-data">
 
-        <table>
+        <table class = "client-table">
             <tr>
                 <td><label for="first-name">First Name:</label></td>
                 <td><input type="string" id="first-name" ></td>
@@ -113,20 +113,24 @@
 
         </table><br>
 
-        <div class="submit-container">
-            <button class="buttons" id="submitbtn" onclick="displayPopup()">Submit</button>
-            <div class="popup" id ="popup">
-                <img src="images/tick.webp" alt="tick image">
-                <h2>Thank You!</h2>
-                <p>Your details have been successfully submitted.</p>
-                <button type="button" onclick="hidePopup()">OK</button>
-            </div>
+        <div class="buttons">
+            <div class="submit-container">
+                <button class="buttons" id="submitbtn" onclick="displayPopup()">Submit</button>
+                <div class="popup" id ="popup">
+                    <img src="images/tick.webp" alt="tick image">
+                    <h2>Thank You!</h2>
+                    <p>Your details have been successfully submitted.</p>
+                    <button type="button" onclick="hidePopup()">OK</button>
+                </div>
 
+            </div>
+            
+            <div class="reset-container">
+                <button class="buttons" id="resetbtn" onclick="reset()">Reset</button>
+            </div>
         </div>
-        
-        <div class="reset-container">
-            <button class="buttons" id="resetbtn" onclick="reset()">Reset</button>
-        </div>
+
+            
 
 
     </div>

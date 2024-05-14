@@ -7,6 +7,7 @@ body{
     font-family: 'Aceme', sans-serif;
     background-color: darkblue;
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 h1{
@@ -68,35 +69,71 @@ h3{
     font-size: 2rem;
     text-align: center;
     text-decoration:underline;
-    
-    
 
 }
 
-table{
+.client-data{
+    padding-bottom: 30px;
+}
+
+.client-data label, textarea{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-td{
+.client-table{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.pt-packages{
     padding: 10px;
+}
 
 
+.client-data, .pt-packages{
+    background-color: hsl(240, 84%, 73%, 0.7);
+    border-radius: 30px; 
+    margin-bottom: 30px;
+    
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+    padding: 5px;
+    
 }
 
 
 
 #submitbtn{
+
+    align-self: center;
     outline: none;
     font-size: 20px;
     font-weight: 600;
     padding: 2;
     border-radius: 10px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.806);
-    color: black;
-      
-    box-shadow: 2px 2px rgba(89, 89, 89, 0.632); 
+    background-color: rgba(70, 135, 240, 0.806);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.632); 
+    text-shadow: 2px 2px black;
 
 }
 
@@ -107,9 +144,11 @@ td{
     padding: 2;
     border-radius: 10px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.806);
-    color: black;
-    box-shadow: 2px 2px rgba(89, 89, 89, 0.632);
+    background-color: rgba(70, 135, 240, 0.806);
+    border: none;
+    color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.632);
+    text-shadow: 2px 2px black;
 
 }
 
