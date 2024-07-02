@@ -13,3 +13,6 @@ HTML was used to create the layout of a gym website with the inclusion of a page
 ## Possible Future Changes:
 * Incorporate JavaScript for user interaction
 * Create a Popup once details have been submited
+
+## Completed Date:
+Currently Incomplete
